@@ -2,7 +2,7 @@
 
 **Using Python to access SSBD** (http://ssbd.qbic.riken.jp) 
 
-Copyright (C) 2016 RIEKN/JST
+Copyright (C) 2016 RIKEN/JST
 
 Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onami
 
