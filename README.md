@@ -13,6 +13,8 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 * **UsingSSBDapi.ipynb** is an iPython notebook which contains examples of using the Python SSBD API to access SSBD for visualization and data analysis
 
 * **SSBD_restful_api.ipynb** is an iPython notebook which contains examples of using Python to access SSBD directly via SSBD REST API
+## Screen shot
+![Alt text](py_SSBDapi_screen.jpg?raw=true "Py_SSBDapi screenshot of 3D objects")
 
 ## Known issues
 * It does not display 3D graphics when viewing directly on GitHub
