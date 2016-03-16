@@ -182,44 +182,43 @@ while nn > 0:
 
 # ## Get the title, organism and contact name of the dataset
 
-# In[22]:
+# In[24]:
 
 q.set_display('off')
 resultmetadata = q.data(field='bdmlUUID', search='d15115')
 for i in resultmetadata['objects']:
     title= i['meta_data']['title']
     name= i['meta_data']['name']
+    pmid = i['meta_data']['PMID']
     organism = i['meta_data']['organism']
 
 
 # ## Plotting the curve
 
-# In[23]:
+# In[26]:
 
 fig=plt.figure()
-label=['Cell_Divsion_Stage', 'Time(sec)']
 plt.plot(timept, no_of_nucleus, 'r')
 ax = fig.add_subplot(1,1,1)
 ax.set_ylabel('cellstage')
 ax.set_xlabel('timepoint')
-plottitle = title+'  ['+organism+']  ('+name+')  '+' Cell divsion over time '
+plottitle = title+'  ['+organism+']  ('+name+')  PMID: '+str(pmid)+' Cell divsion over time '
 plt.title(plottitle);
 
 
 # ### Plotting using actual time instead of time point
 
-# In[24]:
+# In[27]:
 
 tmp=np.array(timept)
 time=tmp*st
 fig=plt.figure()
-label=['Cell_Divsion_Stage', 'Time(sec)']
 plt.plot(time, no_of_nucleus, 'r')
 ax = fig.add_subplot(1,1,1)
 ax.set_ylabel('cellstage')
 xlabel = 'time ( '+tu+' )'
 ax.set_xlabel(xlabel)
-plottitle = title+'  ('+name+')  '+' Cell divsion over time '
+plottitle = title+'  ('+name+')  '+str(pmid)+' Cell divsion over time '
 plt.title(plottitle);
 
 
