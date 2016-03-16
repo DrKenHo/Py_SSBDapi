@@ -14,7 +14,7 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 
 * **SSBD_restful_api.ipynb** is an iPython notebook which contains examples of using Python to access SSBD directly via SSBD REST API
 ## Screen shot
-![Alt text](py_SSBDapi_screen.jpg?raw=true "Py_SSBDapi screenshot of 3D objects")
+![Alt text](Py_SSBDapi.jpg?raw=true "Py_SSBDapi screenshot of 3D objects")
 
 ## Known issues
 * It does not display 3D graphics when viewing directly on GitHub
