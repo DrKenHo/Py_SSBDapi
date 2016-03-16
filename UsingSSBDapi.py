@@ -208,7 +208,7 @@ plt.title(plottitle);
 
 # ### Plotting using actual time instead of time point
 
-# In[27]:
+# In[28]:
 
 tmp=np.array(timept)
 time=tmp*st
@@ -218,7 +218,7 @@ ax = fig.add_subplot(1,1,1)
 ax.set_ylabel('cellstage')
 xlabel = 'time ( '+tu+' )'
 ax.set_xlabel(xlabel)
-plottitle = title+'  ('+name+')  '+str(pmid)+' Cell divsion over time '
+plottitle = title+'  ('+name+')  PMID: '+str(pmid)+' Cell divsion over time '
 plt.title(plottitle);
 
 
