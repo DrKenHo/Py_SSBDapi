@@ -8,17 +8,17 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 
 ## Synopsis
 
-* **Py_SSBDapi** contains a reference implementation of Python SSBD API using SSBD REST API (see  'SSBDapi.ipynb' and 'SSBDapi.py')
+* **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API (see  **SSBDapi.ipynb** and **SSBDapi.py**)
 
-* 'UsingSSBDapi.ipynb' is an iPython notebook which contains examples of using the Python SSBD API to access SSBD for visualization and data analysis
+* **UsingSSBDapi.ipynb** is an iPython notebook which contains examples of using the Python SSBD API to access SSBD for visualization and data analysis
 
-* 'SSBD_restful_api.ipynb' is an iPython notebook which contains examples of using Python to access SSBD directly via SSBD REST API
+* **SSBD_restful_api.ipynb** is an iPython notebook which contains examples of using Python to access SSBD directly via SSBD REST API
 
 ## Known issues
 * It does not display 3D graphics when viewing directly on GitHub
 
 ## Contributors guide
-* Please feel free to fork, enhance/modify OpenSSBD. We look forward to hearing from you and together we hope to share new ideas and collaborate in new projects using OpenSSBD.
+* Please feel free to fork, enhance/modify Py_SSBDapi. We look forward to hearing from you and together we hope to share new ideas and collaborate in new projects using Py_SSBDapi.
 * If you find any bugs, or questions, please submit and open an Issue. 
 
 ## Acknowledgment
