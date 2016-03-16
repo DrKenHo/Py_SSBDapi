@@ -1,12 +1,12 @@
 # Py_SSBDapi
 
-**Using Python to access SSBD (http://ssbd.qbic.riken.jp) **
+**Using Python to access SSBD** (http://ssbd.qbic.riken.jp) 
 
 Copyright (C) 2016 RIEKN/JST
 
 Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onami
 
-# Synopsis
+## Synopsis
 
 * **Py_SSBDapi** contains a reference implementation of Python SSBD API using SSBD REST API (see  'SSBDapi.ipynb' and 'SSBDapi.py')
 
@@ -14,17 +14,17 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 
 * 'SSBD_restful_api.ipynb' is an iPython notebook which contains examples of using Python to access SSBD directly via SSBD REST API
 
-# Known issues
+## Known issues
 * It does not display 3D graphics when viewing directly on GitHub
 
-# Contributors guide
+## Contributors guide
 * Please feel free to fork, enhance/modify OpenSSBD. We look forward to hearing from you and together we hope to share new ideas and collaborate in new projects using OpenSSBD.
 * If you find any bugs, or questions, please submit and open an Issue. 
 
-# Acknowledgment
+## Acknowledgment
 This work has been partly supported by National Bioscience Database Center (NBDC) of Japan Science and Technology Agency (JST).
 
-# License
+## License
 
 Copyright (C) 2016  RIKEN/JST
 
