@@ -1,5 +1,7 @@
 # Py_SSBDapi
 
+[![Join the chat at https://gitter.im/openssbd/Py_SSBDapi](https://badges.gitter.im/openssbd/Py_SSBDapi.svg)](https://gitter.im/openssbd/Py_SSBDapi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Using Python to access SSBD** (http://ssbd.qbic.riken.jp) 
 
 Copyright (C) 2016 RIKEN/JST
