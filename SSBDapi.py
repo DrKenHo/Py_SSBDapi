@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # ## Reference implementation of Python SSBD API using SSBD REST_API
@@ -31,7 +30,7 @@ class ssbd(object):
             #print "display="+str(self.display)
         if status == 'on':
             self.display=True
-            print "display="+str(self.display)
+            print("display=",str(self.display))
             
     def check_field(self, test):
         for i in self.allowed_fields:
@@ -44,16 +43,16 @@ class ssbd(object):
     def display_items(self, bdmldata):
         if self.display : 
             # meta contains meta information: total count, offset, limit, etc.
-            print "meta=", bdmldata['meta']
-            print "found=", bdmldata['meta']['total_count']
-            print "limit=", bdmldata['meta']['limit']
+            print("meta=", bdmldata['meta'])
+            print("found=", bdmldata['meta']['total_count'])
+            print("limit=", bdmldata['meta']['limit'])
         #print "objects=", bdmldata['objects']
             count=1
             for i in bdmldata['objects']:
                 #print "i=", i
-                print "No.:",count
+                print("No.:",count)
                 for j in i:
-                    print "   ", j, ":", i[j]
+                    print("   ", j, ":", i[j])
                 count=count+1 
 
     def ssbd_get(self, field, search):
@@ -63,8 +62,8 @@ class ssbd(object):
         self.bdml_field= self.field+self.search_cond
         self.parameters=self.urlbase+self.apifunc+'/'+self.fmt+self.bdml_field+search+';'
         if self.display :
-            print 'display=', self.display
-            print 'parameter=', self.parameters
+            print('display=', self.display)
+            print('parameter=', self.parameters)
         resp = requests.get(self.parameters)
         if resp.status_code != 200:
             # This means something went wrong.
@@ -79,8 +78,8 @@ class ssbd(object):
         self.bdml_field= self.field+self.search_cond
         self.parameters=self.urlbase+self.apifunc+'/'+self.fmt+self.bdml_field+search+';t='+str(t)+';offset='+str(offset)       
         if self.display :
-            print 'display=', self.display
-            print 'parameter=', self.parameters
+            print('display=', self.display)
+            print('parameter=', self.parameters)
         resp = requests.get(self.parameters)
         if resp.status_code != 200:
             # This means something went wrong.

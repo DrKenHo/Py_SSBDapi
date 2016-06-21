@@ -92,7 +92,7 @@ resultdata = q.data(field='localid', search='505')
 
 # In[14]:
 
-print resultdata
+print(resultdata)
 
 
 # ## Retrieve function to get all the coordinates at a specific time point
@@ -131,7 +131,7 @@ s=q.scale(field='bdml__bdml_ID', search='d15115')
 
 # ## Setup a canvas to display 3D graphics
 
-# In[18]:
+# In[21]:
 
 canvas(title="Displaying 3D graphics", background=(0.8,0.8,0.8) )
 c = color.red
@@ -143,7 +143,7 @@ Z = 0
 
 # ## Visualization - displaying the coordinates as sphere in 3D
 
-# In[19]:
+# In[22]:
 
 for j in s['objects']:
     sx = j['xScale']
@@ -154,7 +154,7 @@ for j in s['objects']:
     tu = j['tUnit']
 
 
-# In[20]:
+# In[23]:
 
 for i in resultdata['objects']:
         sphere(pos=(i['x']*sx, i['y']*sy, i['z']*sz), color=c, radius=i['radius'])
@@ -162,7 +162,7 @@ for i in resultdata['objects']:
 
 # ## Analysis - plotting the proliferation curve
 
-# In[21]:
+# In[24]:
 
 no_of_nucleus = []
 timept = []
@@ -182,7 +182,7 @@ while nn > 0:
 
 # ## Get the title, organism and contact name of the dataset
 
-# In[24]:
+# In[25]:
 
 q.set_display('off')
 resultmetadata = q.data(field='bdmlUUID', search='d15115')
@@ -208,7 +208,7 @@ plt.title(plottitle);
 
 # ### Plotting using actual time instead of time point
 
-# In[28]:
+# In[27]:
 
 tmp=np.array(timept)
 time=tmp*st
@@ -220,6 +220,11 @@ xlabel = 'time ( '+tu+' )'
 ax.set_xlabel(xlabel)
 plottitle = title+'  ('+name+')  PMID: '+str(pmid)+' Cell divsion over time '
 plt.title(plottitle);
+
+
+# In[ ]:
+
+
 
 
 # In[ ]:
