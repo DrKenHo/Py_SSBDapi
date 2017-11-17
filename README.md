@@ -9,6 +9,7 @@ Copyright (C) 2016 RIKEN/JST
 Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onami
 
 ## Synopsis
+* **NOTE:** The current version is no longer compatible with the current SSBD version 3.0 REST API. A newer version of the Python API interface will be released shortly.
 
 * **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API (see  **SSBDapi.ipynb** and **SSBDapi.py**)
 
