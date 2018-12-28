@@ -4,14 +4,20 @@
 
 **Using Python to access SSBD** (http://ssbd.qbic.riken.jp) 
 
-Copyright (C) 2016 RIKEN/JST
+Copyright (C) 2016-2018 RIKEN/JST
 
 Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onami
 
-## Synopsis
-* **NOTE:** The current version is no longer compatible with the current SSBD version 3.0 REST API. A newer version of the Python API interface will be released shortly.
+## Synopsis (updated 2018-12-28)
+* **NOTE:** For accessing current version of SSBD REST API v3.2, please use the following files:
+* **SSBD_restful_api_v3.2.py** contains examples of using raw SSBD REST API v3.2
+* **SSBDapi3_2.py** contains the latest Python SSBD api for Python
+* **UsingSSBDv3.2.ipynb** contains the latest examples of using Python SSBD API to access SSBD
 
-* **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API (see  **SSBDapi.ipynb** and **SSBDapi.py**)
+is no longer compatible with the current SSBD version 3.2 REST API. A newer version of the Python API interface will be released shortly.
+
+* **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API 
+(see  **SSBDapi.ipynb** and **SSBDapi.py**)
 
 * **UsingSSBDapi.ipynb** is an iPython notebook which contains examples of using the Python SSBD API to access SSBD for visualization and data analysis
 
