@@ -16,7 +16,8 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 
 is no longer compatible with the current SSBD version 3.2 REST API. A newer version of the Python API interface will be released shortly.
 
-* **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API (see  **SSBDapi.ipynb** and **SSBDapi.py**)
+* **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API 
+(see  **SSBDapi.ipynb** and **SSBDapi.py**)
 
 * **UsingSSBDapi.ipynb** is an iPython notebook which contains examples of using the Python SSBD API to access SSBD for visualization and data analysis
 
