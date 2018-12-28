@@ -10,9 +10,9 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 
 ## Synopsis (updated 2018-12-28)
 * **NOTE:** For accessing current version of SSBD REST API v3.2, please use the following files:
-** **SSBD_restful_api_v3.2.py** contains examples of using raw SSBD REST API v3.2
-** **SSBDapi3_2.py** contains the latest Python SSBD api for Python
-** **UsingSSBDv3.2.ipynb** contains the latest examples of using Python SSBD API to access SSBD
+* **SSBD_restful_api_v3.2.py** contains examples of using raw SSBD REST API v3.2
+* **SSBDapi3_2.py** contains the latest Python SSBD api for Python
+* **UsingSSBDv3.2.ipynb** contains the latest examples of using Python SSBD API to access SSBD
 
 is no longer compatible with the current SSBD version 3.2 REST API. A newer version of the Python API interface will be released shortly.
 
