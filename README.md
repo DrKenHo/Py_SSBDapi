@@ -14,8 +14,7 @@ Original contributors: Kenneth H.L. Ho, Yukako Tohsato, Koji Kyoda, Shuichi Onam
 * **SSBDapi3_2.py** contains the latest Python SSBD api for Python
 * **UsingSSBDv3.2.ipynb** contains the latest examples of using Python SSBD API to access SSBD
 
-is no longer compatible with the current SSBD version 3.2 REST API. A newer version of the Python API interface will be released shortly.
-
+## Depreciated - for reference only
 * **Py_SSBDapi** repository contains a reference implementation of Python SSBD API using SSBD REST API 
 (see  **SSBDapi.ipynb** and **SSBDapi.py**)
 
